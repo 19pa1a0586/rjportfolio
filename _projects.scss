@@ -1,0 +1,22 @@
+.project-head{
+    width: 90%;
+    margin: auto;
+    min-height: 90vh;
+    @include flex(row, space-around, center);
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Mate SC', serif;
+
+    img{
+        border-radius: 10%;
+    }
+
+    h2{
+        margin: 3rem;
+    }
+}
+
+
+.restaurant, .portfolio{
+    flex: 1 1 40rem;
+}
